@@ -11,7 +11,7 @@ public class greyscale {
             image = ImageIO.read(file);
         }
     catch(IOException e)
-        {System.out.println(e);}
+        {System.out.println("no read");}
 
 
     int width = image.getWidth();
