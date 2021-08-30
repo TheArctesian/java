@@ -13,8 +13,10 @@ class aclass {
             ArrayList<String> listOfLines = new ArrayList<>();
             String line = Red.readLine();
             while (line != null) {
-                listOfLines.add(line);
+
+		   listOfLines.add(line);
             }
+	    System.out.println(listOfLines.toString();
             Red.close();
             System.out.println(listOfLines.toString());
         } catch (FileNotFoundException e) {
