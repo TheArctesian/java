@@ -19,5 +19,6 @@ public class MainActivity extends AppCompatActivity {
         EditText editTxtName = findViewById(R.id.editTxtName);
         txtHello.setText("hello " + editTxtName.getText().toString() + "!");
 
+        //
     }
 }
